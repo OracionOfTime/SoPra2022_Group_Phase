@@ -1,0 +1,1 @@
+This is our implementation of the board game "Dungeon Lords", that we worked on as a team in turn of the Software Engineering Lab. Besides the game and its logic by having given a code skeleton, system- and unit-tests have beem implemented by us. Enjoy!
