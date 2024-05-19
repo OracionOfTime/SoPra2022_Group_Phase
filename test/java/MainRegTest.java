@@ -1,0 +1,97 @@
+/*import de.unisaarland.cs.se.selab.actions.ActionFactoryImplementation;
+import de.unisaarland.cs.se.selab.game.Game;
+import de.unisaarland.cs.se.selab.game.GameFactory;
+import de.unisaarland.cs.se.selab.phases.BroadcastEvents;
+import de.unisaarland.cs.se.selab.server.Server;
+import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import org.apache.commons.cli.CommandLine;
+import org.apache.commons.cli.CommandLineParser;
+import org.apache.commons.cli.DefaultParser;
+import org.apache.commons.cli.Option;
+import org.apache.commons.cli.Options;
+import org.apache.commons.cli.ParseException;
+import org.junit.jupiter.api.Test;
+
+public class MainRegTest {
+
+    /*
+    @Test
+    public void mainTest() throws ParseException {
+
+        String[] args = {"--config=src/main/resources/configuration.json", "--port=5005",
+                "--seed=42", "--timeout=3"};
+
+        //parse the options passed as command line arguments
+        final CommandLineParser parser = new DefaultParser();
+
+        final Logger logger = Logger.getLogger("printError");
+
+        final Options options = new Options();
+
+        options.addOption(Option.builder()
+                .required(true)
+                .longOpt("config")
+                .desc("path to the config file")
+                .hasArg()
+                .argName("config")
+                .build());
+
+        options.addOption(Option.builder()
+                .required(true)
+                .longOpt("port")
+                .desc("port number of tcp")
+                .hasArg()
+                .argName("port")
+                .build());
+
+        options.addOption(Option.builder()
+                .required(false)
+                .longOpt("seed")
+                .desc("seed to generate randomness")
+                .hasArg()
+                .argName("seed")
+                .build());
+
+        options.addOption(Option.builder()
+                .required(false)
+                .longOpt("timeout")
+                .desc("timeout for server")
+                .hasArg()
+                .argName("timeout")
+                .build());
+
+        final CommandLine cmd = parser.parse(options, args);
+
+        String configPath = cmd.getOptionValue("config");
+        final int port = Integer.parseInt(cmd.getOptionValue("port"));
+        final long seed = Long.parseLong(cmd.getOptionValue("seed"));
+        final int timeout = Integer.parseInt(cmd.getOptionValue("timeout"));
+
+        final ActionFactoryImplementation actionFactory = new ActionFactoryImplementation();
+
+        try (final BroadcastEvents serverConnection = new BroadcastEvents(port, timeout,
+                actionFactory)) {
+            GameFactory gameFactory = new GameFactory(seed, configPath);
+            try {
+                if (gameFactory.parseConfig()) {
+                    final Game game = gameFactory.initializeGame();
+                    if (game != null) {
+                        final Server server = new Server(serverConnection, game, actionFactory);
+                        server.executeGame();
+                    }
+                }
+            } catch (IOException e) {
+                logger.log(Level.FINE, e.toString());
+
+
+            }
+
+        }
+
+    }
+
+}
+
+ */

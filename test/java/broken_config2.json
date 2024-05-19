@@ -1,0 +1,38 @@
+{
+  "maxPlayers": 2,
+  "years": 1,
+  "dungeonSideLength": 10,
+  "initialFood": 5,
+  "initialGold": 5,
+  "initialImps": 3,
+  "initialEvilness": 5,
+  "monsters": [
+    {
+      "id": 0,
+      "name": "Brineman, The Twin Man",
+      "damage": 3,
+      "attackStrategy": "BASIC"
+    },
+    {
+      "id": 1,
+      "name": "Muckfang, The Baby Pest",
+      "damage": 3,
+      "attackStrategy": "BASIC"
+    },
+    {
+      "id": 2,
+      "name": "Ghostbeast, The Bruised Cobra",
+      "damage": 3,
+      "attackStrategy": "BASIC"
+    },
+    {
+      "id": 3,
+      "name": "Webman, The Quiet Feline",
+      "damage": 3,
+      "attackStrategy": "BASIC"
+    }
+  ],
+  "adventurers": [],
+  "traps": [],
+  "rooms": []
+}
